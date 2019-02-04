@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f2f3f4"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        >
+
+
+   <!--*******Warranty*********-->
+    <LinearLayout
+        android:id="@+id/warrantycard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/bg_strok"
+        >
+    <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Warranty"
+        android:textSize="@dimen/text"
+        android:textColor="@color/Tex"
+        />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+    <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+         android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Warranty Period"
+        android:textSize="@dimen/textsub"
+        android:textColor="@color/textSub"
+        android:layout_marginTop="16dp"
+        />
+
+            <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12 Months Manufacturer Warranty"
+                android:textSize="@dimen/text"
+                android:textColor="@color/Tex"
+                android:layout_marginTop="16dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <!--*******InTHE BOX CARD*********-->
+    <LinearLayout
+        android:id="@+id/inthebox"
+        android:layout_below="@+id/warrantycard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/bg_strok"
+        android:layout_marginTop="7dp"
+        >
+        <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/InTheBox"
+            android:textSize="@dimen/text"
+            android:textColor="@color/Tex"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Box Contents"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/textSub"
+                android:layout_marginTop="16dp"
+                />
+
+            <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="iPad Mini 2, User Manual,Charger"
+                android:textSize="@dimen/text"
+                android:textColor="@color/Tex"
+                android:layout_marginTop="16dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <!--*******Generalcard*********-->
+    <LinearLayout
+        android:id="@+id/general"
+        android:layout_below="@+id/inthebox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/bg_strok"
+        android:layout_marginTop="7dp"
+        >
+        <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/General"
+            android:textSize="@dimen/text"
+            android:textColor="@color/Tex"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Brand"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/textSub"
+                android:layout_marginTop="16dp"
+                />
+
+            <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apple"
+                android:textSize="@dimen/text"
+                android:textColor="@color/Tex"
+                android:layout_marginTop="16dp"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Model"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/textSub"
+                android:layout_marginTop="16dp"
+                />
+
+            <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="iPad Mini 2"
+                android:textSize="@dimen/text"
+                android:textColor="@color/Tex"
+                android:layout_marginTop="16dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Voice Call"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/textSub"
+                android:layout_marginTop="16dp"
+                />
+
+            <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textSize="@dimen/text"
+                android:textColor="@color/Tex"
+                android:layout_marginTop="16dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SIMs"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/textSub"
+                android:layout_marginTop="16dp"
+                />
+
+            <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textSize="@dimen/text"
+                android:textColor="@color/Tex"
+                android:layout_marginTop="16dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Colour"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/textSub"
+                android:layout_marginTop="16dp"
+                />
+
+            <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Silver"
+                android:textSize="@dimen/text"
+                android:textColor="@color/Tex"
+                android:layout_marginTop="16dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!--*******CAMERA********-->
+    <LinearLayout
+        android:id="@+id/camera"
+        android:layout_below="@+id/general"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/bg_strok"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="16dp"
+        >
+        <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Camera"
+            android:textSize="@dimen/text"
+            android:textColor="@color/Tex"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rear Camera"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/textSub"
+                android:layout_marginTop="16dp"
+                />
+
+            <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5 MP, 1080p"
+                android:textSize="@dimen/text"
+                android:textColor="@color/Tex"
+                android:layout_marginTop="16dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Flash"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/textSub"
+                android:layout_marginTop="16dp"
+                />
+
+            <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="@dimen/text"
+                android:textColor="@color/Tex"
+                android:layout_marginTop="16dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Front Camera"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/textSub"
+                android:layout_marginTop="16dp"
+                />
+
+            <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.2 MP, 720p"
+                android:textSize="@dimen/text"
+                android:textColor="@color/Tex"
+                android:layout_marginTop="16dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

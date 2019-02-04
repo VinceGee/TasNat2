@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_weight="0.07"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_strok"
+        android:padding="16dp"
+        >
+
+    <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- 1 Year Brand Warranty"
+        android:drawablePadding="6dp"
+        android:textSize="@dimen/text"
+        android:textColor="@color/Tex"
+        android:layout_marginTop="16dp"
+        />
+
+        <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-  5 MP Rear Camera"
+            android:drawablePadding="6dp"
+            android:textSize="@dimen/text"
+            android:textColor="@color/Tex"
+            android:layout_marginTop="16dp"
+            />
+
+        <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Storage : 16 GB"
+            android:drawablePadding="6dp"
+            android:textSize="@dimen/text"
+            android:textColor="@color/Tex"
+            android:layout_marginTop="16dp"
+            />
+
+        <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Operating System - iOS 8"
+            android:drawablePadding="6dp"
+            android:textSize="@dimen/text"
+            android:textColor="@color/Tex"
+            android:layout_marginTop="16dp"
+            />
+
+        <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- 1.2 MP Front Camera"
+            android:drawablePadding="6dp"
+            android:textSize="@dimen/text"
+            android:textColor="@color/Tex"
+            android:layout_marginTop="16dp"
+            />
+
+        <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- 20.06 cm (7.9) Retina Display"
+            android:drawablePadding="6dp"
+            android:textSize="@dimen/text"
+            android:textColor="@color/Tex"
+            android:layout_marginTop="16dp"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

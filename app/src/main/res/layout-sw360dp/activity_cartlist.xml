@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/othertoolbar" />
+
+
+    <ListView
+
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/pay"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/White"
+        android:divider="#00000000" />
+
+
+    <zw.co.vokers.vinceg.tasnat.utils.VokersRegularText
+        android:id="@+id/pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/purpler"
+        android:drawableTint="#ffffff"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="PLACE THIS ORDER"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+
+</RelativeLayout>
